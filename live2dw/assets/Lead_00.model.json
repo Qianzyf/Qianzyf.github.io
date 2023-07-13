@@ -3,9 +3,9 @@
 	"name": "千竹婚纱",
 	"model": "Lead_00.moc",
 	"textures":{
-		"11310":[
+		"qianzu":[
 		"texture_00.png",
-		"texture_01.png",
+		"texture_01.png"
 	    ]
 	},
 	"config":{
