@@ -207,6 +207,14 @@ body {
 .mobile-nav-on {
   overflow: hidden;
 }
+.live2d {
+  position: fixed;
+  right: -100px;
+  bottom: -180px;
+  width: 500px !important;
+  height: 437.5px !important;
+  z-index: 998;
+}
 #wrap {
   height: 100%;
   width: 100%;

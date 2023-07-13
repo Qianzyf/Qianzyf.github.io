@@ -1,0 +1,54 @@
+<h2 id="在网页上引入Live2D看板娘-仅限于Cubism-3模型"><a href="#在网页上引入Live2D看板娘-仅限于Cubism-3模型" class="headerlink" title="在网页上引入Live2D看板娘(仅限于Cubism 3模型)"></a>在网页上引入Live2D看板娘(仅限于Cubism 3模型)</h2><h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><p>1.将项目解压并放入web容器或者使用Nginx或Apache等工具反向代理来请求模型资源(由于使用AJAX异步加载)</p>
+<ul>
+<li>没测试过本地请求是否成功</li>
+</ul>
+<p>2.修改你的资源请求路径</p>
+<ul>
+<li>模型默认可放在Resource下</li>
+</ul>
+<p>3.打开网站运行显示</p>
+<ul>
+<li>如果出现跨域问题，请最好本地调试</li>
+<li>本Demo可以配合大佬写的waifu.js来实现其他功能</li>
+</ul>
+<h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><ul>
+<li>由于加载模型动作等需要调用PIXI的请求去加载，所以对于本地资源，最好使用web容器或反向代理工具来实现模拟网络环境</li>
+<li>如果你熟悉PIXI的其他请求资源方式，可以尝试修改请求资源方式，调用第一种加载模型方式，自己请求并加载资源</li>
+<li>如果是CDN资源，最好使用第二种方式进行加载模型，比较方便</li>
+<li>多模型加载未优化浏览器内存，加载过多会导致内存偏大，或许降低在页面正常浏览网页的速度等性能</li>
+</ul>
+<h4 id="代码命名注释等不规范会慢慢修改"><a href="#代码命名注释等不规范会慢慢修改" class="headerlink" title="代码命名注释等不规范会慢慢修改"></a>代码命名注释等不规范会慢慢修改</h4><h2 id="NOTICE-注意，非常重要"><a href="#NOTICE-注意，非常重要" class="headerlink" title="NOTICE (注意，非常重要)"></a>NOTICE (注意，非常重要)</h2><p>基于 EULA 协议，请勿提交SDKs源代码到仓库里！请勿修改framework中的文件！</p>
+<p>Baseed on EULA ，DO NOT pull Cubism SDKs on repositorie!DO NOT modify fiels in folder framework !</p>
+<p>违反上述规定由此引发的任何法律纠纷，由违反者承担相应责任!</p>
+<p>Any legal dispute arising from the violation of the above provisions shall be the responsibility of the violators!</p>
+<p>如果你是fork该仓库，也请不要自己放SDK进自己的仓库里，这将违反Live2D公司对于SDK的不可再分发原则</p>
+<h2 id="LICENSE"><a href="#LICENSE" class="headerlink" title="LICENSE"></a>LICENSE</h2><p>由于文件基于Live2D 的开源git项目编写，所以以下文件遵循 GNU General Public License, version 2</p>
+<ul>
+<li><a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General Public License, version 2</a><ul>
+<li>loadModel.js</li>
+</ul>
+</li>
+</ul>
+<p>Live2D Cubism Core は Live2D Proprietary Software License で提供しています。</p>
+<ul>
+<li>Live2D Proprietary Software License<br><a href="http://www.live2d.com/eula/live2d-proprietary-software-license-agreement_jp.html">日本語</a><br><a href="http://www.live2d.com/eula/live2d-proprietary-software-license-agreement_en.html">English</a> <ul>
+<li>live2dcubismcore.min.js</li>
+</ul>
+</li>
+</ul>
+<p>Live2D Cubism Components は Live2D Open Software License で提供しています。</p>
+<ul>
+<li>Live2D Open Software License<br><a href="http://www.live2d.com/eula/live2d-open-software-license-agreement_jp.html">日本語</a><br><a href="http://www.live2d.com/eula/live2d-open-software-license-agreement_en.html">English</a> <ul>
+<li>live2dcubismframework.js</li>
+<li>live2dcubismpixi.js</li>
+</ul>
+</li>
+</ul>
+<p>直近会計年度の売上高が 1000 万円以上の事業者様がご利用になる場合は、SDKリリース(出版許諾)ライセンスに同意していただく必要がございます。 </p>
+<ul>
+<li><a href="http://www.live2d.com/ja/products/releaselicense">SDKリリース(出版許諾)ライセンス</a></li>
+</ul>
+<p><em>All business</em> users must obtain a Publication License. “Business” means an entity  with the annual gross revenue more than ten million (10,000,000) JPY for the most recent fiscal year.</p>
+<ul>
+<li><a href="http://www.live2d.com/en/products/releaselicense">SDK Release (Publication) License</a></li>
+</ul>
