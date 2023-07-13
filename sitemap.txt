@@ -1,7 +1,7 @@
-https://qianzyf.github.io/bangumis.json
-https://qianzyf.github.io/bangumi/index.html
-https://qianzyf.github.io/uncategorized/%E4%B8%80%E8%87%B4%E6%80%A7%E5%93%88%E5%B8%8C/
-https://qianzyf.github.io/uncategorized/jdk%E5%92%8Ccglib%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86/
-https://qianzyf.github.io/
-https://qianzyf.github.io/tags/RPC/
-https://qianzyf.github.io/tags/Java%E5%9F%BA%E7%A1%80/
+https://blog.qianzyf.cn/bangumis.json
+https://blog.qianzyf.cn/bangumi/index.html
+https://blog.qianzyf.cn/uncategorized/%E4%B8%80%E8%87%B4%E6%80%A7%E5%93%88%E5%B8%8C/
+https://blog.qianzyf.cn/uncategorized/jdk%E5%92%8Ccglib%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86/
+https://blog.qianzyf.cn/
+https://blog.qianzyf.cn/tags/Java%E5%9F%BA%E7%A1%80/
+https://blog.qianzyf.cn/tags/RPC/

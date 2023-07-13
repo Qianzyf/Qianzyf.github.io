@@ -3,11 +3,11 @@
   <title>(*＞◡❛)</title>
   
   <subtitle>尽全力创作！&#92;(￣︶￣*&#92;))</subtitle>
-  <link href="https://qianzyf.github.io/atom.xml" rel="self"/>
+  <link href="https://blog.qianzyf.cn/atom.xml" rel="self"/>
   
-  <link href="https://qianzyf.github.io/"/>
+  <link href="https://blog.qianzyf.cn/"/>
   <updated>2023-07-05T13:24:16.267Z</updated>
-  <id>https://qianzyf.github.io/</id>
+  <id>https://blog.qianzyf.cn/</id>
   
   <author>
     <name>qianzyf</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Jdk和Cglib动态代理</title>
-    <link href="https://qianzyf.github.io/uncategorized/jdk%E5%92%8Ccglib%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86/"/>
-    <id>https://qianzyf.github.io/uncategorized/jdk%E5%92%8Ccglib%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86/</id>
+    <link href="https://blog.qianzyf.cn/uncategorized/jdk%E5%92%8Ccglib%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86/"/>
+    <id>https://blog.qianzyf.cn/uncategorized/jdk%E5%92%8Ccglib%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86/</id>
     <published>2023-07-02T04:41:28.000Z</published>
     <updated>2023-07-05T13:24:16.267Z</updated>
     
@@ -31,14 +31,14 @@
     
     
     
-    <category term="Java基础" scheme="https://qianzyf.github.io/tags/Java%E5%9F%BA%E7%A1%80/"/>
+    <category term="Java基础" scheme="https://blog.qianzyf.cn/tags/Java%E5%9F%BA%E7%A1%80/"/>
     
   </entry>
   
   <entry>
     <title>一致性哈希</title>
-    <link href="https://qianzyf.github.io/uncategorized/%E4%B8%80%E8%87%B4%E6%80%A7%E5%93%88%E5%B8%8C/"/>
-    <id>https://qianzyf.github.io/uncategorized/%E4%B8%80%E8%87%B4%E6%80%A7%E5%93%88%E5%B8%8C/</id>
+    <link href="https://blog.qianzyf.cn/uncategorized/%E4%B8%80%E8%87%B4%E6%80%A7%E5%93%88%E5%B8%8C/"/>
+    <id>https://blog.qianzyf.cn/uncategorized/%E4%B8%80%E8%87%B4%E6%80%A7%E5%93%88%E5%B8%8C/</id>
     <published>2023-07-02T04:39:46.000Z</published>
     <updated>2023-07-08T12:46:38.339Z</updated>
     
@@ -51,7 +51,7 @@
     
     
     
-    <category term="RPC" scheme="https://qianzyf.github.io/tags/RPC/"/>
+    <category term="RPC" scheme="https://blog.qianzyf.cn/tags/RPC/"/>
     
   </entry>
   
