@@ -299,7 +299,8 @@
         id: md5(window.location.pathname),
         distractionFreeMode: false,
         language: 'zh-CN',
-        pagerDirection: 'last'
+        pagerDirection: 'last',
+        proxy: 'https://cors.qianzyf.cn/github_access_token'
       });
       gitalk.render('comments');
     </script>
