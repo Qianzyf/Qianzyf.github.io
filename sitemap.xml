@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.qianzyf.cn/bangumis.json</loc>
+    <loc>https://blog.qianzyf.cn/uncategorized/IO%E6%A8%A1%E5%9E%8B/</loc>
     
-    <lastmod>2023-07-13</lastmod>
+    <lastmod>2023-07-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.qianzyf.cn/about/index.html</loc>
+    
+    <lastmod>2023-07-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

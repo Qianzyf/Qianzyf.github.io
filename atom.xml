@@ -6,7 +6,7 @@
   <link href="https://blog.qianzyf.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.qianzyf.cn/"/>
-  <updated>2023-07-05T13:24:16.267Z</updated>
+  <updated>2023-07-16T11:32:47.791Z</updated>
   <id>https://blog.qianzyf.cn/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>IO模型</title>
+    <link href="https://blog.qianzyf.cn/uncategorized/IO%E6%A8%A1%E5%9E%8B/"/>
+    <id>https://blog.qianzyf.cn/uncategorized/IO%E6%A8%A1%E5%9E%8B/</id>
+    <published>2023-07-16T11:27:33.000Z</published>
+    <updated>2023-07-16T11:32:47.791Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="IO模型"><a href="#IO模型" class="headerlink" title="IO模型"></a>IO模型</h1><p>IO分为BIO（同步阻塞）、NIO（同步非阻塞）、AIO（异步非阻塞）</p><h3 id="BIO"><a href="#BIO" class="headerlink" title="BIO"></a>BIO</h3><p>BIO是同步阻塞模型，一般是进程或者线程一直等待，直到某个条件满足后才会继续向下运行。在IO模型中如下图</p><span id="more"></span><p><img src="https://cdn.jsdelivr.net/gh/Qianzyf/cloudpic@blog-pic/img/202307161929546.png"></p><p>进程在调用的过程中需要一直等待，直到获得数据</p><h3 id="NIO"><a href="#NIO" class="headerlink" title="NIO"></a>NIO</h3><p>NIO是同步非阻塞模型，当进程进行系统调用后，如果内核没有准备好数据，则可以去执行其他任务，，不过过段时间又需要去进行系统调用查看数据是否准备完成，即需要定时去和内核交互。IO模型如下</p><p><img src="https://cdn.jsdelivr.net/gh/Qianzyf/cloudpic@blog-pic/img/202307161929179.png"></p><h3 id="AIO"><a href="#AIO" class="headerlink" title="AIO"></a>AIO</h3><p>AIO是异步非阻塞IO，在发起系统调用后，内核未准备好数据就直接返回，进程可以去处理其他任务，当内核准备好数据后，也不需要进程过来将数据从内核空间复制到用户空间，而是内核直接将数据拷贝到用户空间，然后通知进程数据已经在用户空间了，然后进程直接处理数据即可。</p><p><img src="https://cdn.jsdelivr.net/gh/Qianzyf/cloudpic@blog-pic/img/202307161930500.png"></p>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;IO模型&quot;&gt;&lt;a href=&quot;#IO模型&quot; class=&quot;headerlink&quot; title=&quot;IO模型&quot;&gt;&lt;/a&gt;IO模型&lt;/h1&gt;&lt;p&gt;IO分为BIO（同步阻塞）、NIO（同步非阻塞）、AIO（异步非阻塞）&lt;/p&gt;
+&lt;h3 id=&quot;BIO&quot;&gt;&lt;a href=&quot;#BIO&quot; class=&quot;headerlink&quot; title=&quot;BIO&quot;&gt;&lt;/a&gt;BIO&lt;/h3&gt;&lt;p&gt;BIO是同步阻塞模型，一般是进程或者线程一直等待，直到某个条件满足后才会继续向下运行。在IO模型中如下图&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="RPC" scheme="https://blog.qianzyf.cn/tags/RPC/"/>
+    
+  </entry>
   
   <entry>
     <title>Jdk和Cglib动态代理</title>

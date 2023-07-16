@@ -17,7 +17,7 @@
   <meta charset="utf-8">
   
   
-  <title>Archive: 2023/7 | (*＞◡❛)</title>
+  <title>IO模型 | (*＞◡❛)</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
     <meta name="description" content="qianzyfのblog,">
@@ -123,59 +123,138 @@
 </header>
 
       <div class="outer">
-        <section id="main">
+        <section id="main"><article id="post-IO模型" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-inner">
+    
 
-  
-  
+
     
-    
-    <section class="archives-wrap">
-      <div class="archive-title">
+      <header class="article-header">
         
-          <i class="fa fa-date"></i>
-          2023
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      IO模型
+    </h1>
+  
+
+
+      </header>
+    
+    <div class="article-meta">
+      
+      <span class="article-date">
+  <i class="fa fa-date"></i>
+  <time class="dt-published" datetime="2023-07-16T11:27:33.000Z" itemprop="datePublished">2023/07/16/</time>
+</span>
+      
+      
+        <span class="article-views">
+  <i class="fa fa-views"></i>
+  <i id="busuanzi_container_page_pv">
+      <i id="busuanzi_value_page_pv"></i>
+  </i>
+</span>
+
+      
+      
+<a href="/uncategorized/IO%E6%A8%A1%E5%9E%8B/#comments" class="article-comment-link">
+  
+    
+    
+    
+    
+    
+  
+  <i class="fa fa-commt"></i>
+  Guestbook
+</a>
+
+
+    </div>
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="IO模型"><a href="#IO模型" class="headerlink" title="IO模型"></a>IO模型</h1><p>IO分为BIO（同步阻塞）、NIO（同步非阻塞）、AIO（异步非阻塞）</p>
+<h3 id="BIO"><a href="#BIO" class="headerlink" title="BIO"></a>BIO</h3><p>BIO是同步阻塞模型，一般是进程或者线程一直等待，直到某个条件满足后才会继续向下运行。在IO模型中如下图</p>
+<span id="more"></span>
+
+<p><img src="https://cdn.jsdelivr.net/gh/Qianzyf/cloudpic@blog-pic/img/202307161929546.png"></p>
+<p>进程在调用的过程中需要一直等待，直到获得数据</p>
+<h3 id="NIO"><a href="#NIO" class="headerlink" title="NIO"></a>NIO</h3><p>NIO是同步非阻塞模型，当进程进行系统调用后，如果内核没有准备好数据，则可以去执行其他任务，，不过过段时间又需要去进行系统调用查看数据是否准备完成，即需要定时去和内核交互。IO模型如下</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Qianzyf/cloudpic@blog-pic/img/202307161929179.png"></p>
+<h3 id="AIO"><a href="#AIO" class="headerlink" title="AIO"></a>AIO</h3><p>AIO是异步非阻塞IO，在发起系统调用后，内核未准备好数据就直接返回，进程可以去处理其他任务，当内核准备好数据后，也不需要进程过来将数据从内核空间复制到用户空间，而是内核直接将数据拷贝到用户空间，然后通知进程数据已经在用户空间了，然后进程直接处理数据即可。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Qianzyf/cloudpic@blog-pic/img/202307161930500.png"></p>
+
+        
+            <div id="toc-article">
+                
+  <div class="widget-wrap" id="toc-wrap">
+    <h3 class="widget-title"><i class="fa fa-toc"></i> Contents</h3>
+    <div class="widget">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#IO%E6%A8%A1%E5%9E%8B"><span class="toc-text">IO模型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#BIO"><span class="toc-text">BIO</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#NIO"><span class="toc-text">NIO</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#AIO"><span class="toc-text">AIO</span></a></li></ol></li></ol></li></ol>
+    </div>
+  </div>
+
+
+            </div>
+        
+        
+          <blockquote id="copyright">
+              <p>Original link: <a href="https://blog.qianzyf.cn/uncategorized/IO模型/">https://blog.qianzyf.cn/uncategorized/IO模型/</a></p>
+              <p>Copyright Notice: Please indicate the source of the reproduction.</p>
+          </blockquote>
+        
+      
+    </div>
+    <footer class="article-footer">
+      
+        <div class="article-tag-wrap">
+          
+
+          
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/RPC/" rel="tag">RPC</a></li></ul>
+
+          
+    <div class="social-share">
+      <span>Share:</span>
+    </div>
+
+
+
+        </div>
+      
+      
+        
+<nav id="article-nav">
+  
+    <a href="/uncategorized/jdk%E5%92%8Ccglib%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">older</strong>
+      <div class="article-nav-title">
+        
+          Jdk和Cglib动态代理
         
       </div>
-      <div class="archives">
-  
-  <ul class="archive-article archive-type-post">
-  <li class="archive-article-inner">
-    <a href="/uncategorized/IO%E6%A8%A1%E5%9E%8B/">
-      <time class="dt-published" datetime="2023-07-16T11:27:33.000Z" itemprop="datePublished">2023/07/16/</time>
-      | <span class="archive-article-title">IO模型</span>
     </a>
-  </li>
-</ul>
-
-
   
   
-  <ul class="archive-article archive-type-post">
-  <li class="archive-article-inner">
-    <a href="/uncategorized/jdk%E5%92%8Ccglib%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86/">
-      <time class="dt-published" datetime="2023-07-02T04:41:28.000Z" itemprop="datePublished">2023/07/02/</time>
-      | <span class="archive-article-title">Jdk和Cglib动态代理</span>
-    </a>
-  </li>
-</ul>
+</nav>
 
-
-  
-  
-  <ul class="archive-article archive-type-post">
-  <li class="archive-article-inner">
-    <a href="/uncategorized/%E4%B8%80%E8%87%B4%E6%80%A7%E5%93%88%E5%B8%8C/">
-      <time class="dt-published" datetime="2023-07-02T04:39:46.000Z" itemprop="datePublished">2023/07/02/</time>
-      | <span class="archive-article-title">一致性哈希</span>
-    </a>
-  </li>
-</ul>
+      
+      
+        
+  <div id="comments"></div>
 
 
 
-  </div></section>
 
 
+
+
+
+
+      
+    </footer>
+  </div>
+</article>
 </section>
         
           <aside id="sidebar">
@@ -294,6 +373,16 @@
 
 
 
+
+  
+    
+<script src="/localshare/js/social-share.js"></script>
+
+    
+<script src="/localshare/js/qrcode.js"></script>
+
+  
+  
 
 
 
